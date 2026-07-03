@@ -10,7 +10,6 @@ class Solution:
         nums.sort()
         if 1 not in nums: return 1
         for i in range(1, len(nums)):
-            if nums[i] < 1: continue
             if nums[i-1] <= 0: continue
             if nums[i-1]+1 != nums[i] and nums[i-1]+1 != 0 and nums[i-1] != nums[i] :
                 return nums[i-1]+1
