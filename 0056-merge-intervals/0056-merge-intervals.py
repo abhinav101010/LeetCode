@@ -11,7 +11,7 @@ class Solution:
         # return ans
 
 
-        if len(intervals) == 1: return intervals
+        # if len(intervals) == 1: return intervals
         intervals.sort()
         ans  = [intervals[0]]
         i = 1
