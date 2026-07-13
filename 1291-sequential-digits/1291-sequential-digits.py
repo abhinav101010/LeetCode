@@ -11,6 +11,8 @@ class Solution:
         #     if valid:
         #         ans.append(num)
         # return ans
+
+        # Dono approch khud lagai h, Stand proud
         ans = [int("".join(str(i) for i in range(1, len(str(low)) + 1)))]
 
         while ans[-1] <= high:
