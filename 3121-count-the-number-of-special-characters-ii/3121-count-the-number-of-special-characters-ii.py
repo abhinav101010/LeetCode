@@ -8,5 +8,4 @@ class Solution:
                 ans.update({word[i]: upperChar})
             if word[i] in ans.keys() and upperChar < i:
                 ans.pop(word[i])
-        print(ans)
         return len(ans)
