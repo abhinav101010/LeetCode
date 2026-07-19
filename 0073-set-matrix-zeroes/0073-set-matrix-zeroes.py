@@ -3,6 +3,8 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
+
+        # Did it by self, stand proud
         rows = set()
         cols = set()
 
