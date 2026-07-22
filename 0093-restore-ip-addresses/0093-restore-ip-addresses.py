@@ -1,6 +1,6 @@
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
-
+# STAND PROUD, completely self thought andn implemented
         ans = set()
         def permute(curr, i, dots):
             if i == len(s):
