@@ -10,6 +10,7 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
+        # Self thought and implemented logic, Stand Proud
         levels = {}
 
         def checkLevels(root, level):
