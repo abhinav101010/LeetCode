@@ -1,5 +1,6 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+# Self thought and implemented logic, Stand Proud
         maxProfit = 0
         bought = False
         n = len(prices)
@@ -14,7 +15,7 @@ class Solution:
                     bought = False
                     maxProfit += prices[i]
                     continue
-                    
+
             if bought and i == n-1:
                 bought = False
                 maxProfit += prices[i]
