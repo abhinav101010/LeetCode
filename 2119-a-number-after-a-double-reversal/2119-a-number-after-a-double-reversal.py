@@ -1,4 +1,3 @@
 class Solution:
     def isSameAfterReversals(self, num: int) -> bool:
-        a = int(str(int(str(num)[::-1]))[::-1])
-        return num == a
+        return num == 0 or num%10 != 0
