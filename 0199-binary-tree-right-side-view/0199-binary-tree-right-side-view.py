@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        # Self thought and implemented logic, STAND PROUD
         levels = {}
         def dfs(root, level):
             if not root: return
