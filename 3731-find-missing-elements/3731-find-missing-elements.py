@@ -1,5 +1,6 @@
 class Solution:
     def findMissingElements(self, nums: List[int]) -> List[int]:
+        if not nums: return []
         nums.sort()
         numsSet = set(nums)
 
