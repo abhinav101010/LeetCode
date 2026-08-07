@@ -3,8 +3,5 @@ class Solution:
         ans = []
 
         for candy in candies:
-            if candy+extraCandies>=max(candies):
-                ans.append(True)
-            else:
-                ans.append(False)
+            ans.append(candy+extraCandies>=max(candies))
         return ans
