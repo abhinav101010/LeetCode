@@ -6,5 +6,5 @@ class Solution:
                 ans.append(nums[i])
         for i in range(len(ans)):
             nums[i] = ans[i]
-        nums = ans
+        # nums = ans
         return len(ans)
