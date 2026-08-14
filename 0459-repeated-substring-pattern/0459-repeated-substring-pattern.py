@@ -7,13 +7,15 @@ class Solution:
         #         return True
         # return False
 
-        for i in range(1, len(s)):
-            if len(s) % i != 0:
-                continue
+        # for i in range(1, len(s)):
+        #     if len(s) % i != 0:
+        #         continue
 
-            subStr = s[:i]
+        #     subStr = s[:i]
 
-            if subStr * (len(s) // i) == s:
-                return True
+        #     if subStr * (len(s) // i) == s:
+        #         return True
 
-        return False
+        # return False
+
+        return s in (s + s)[1:-1]
