@@ -34,7 +34,7 @@ class Solution:
         # generate([""] * k, 0)
         # return ans
 
-
+# Tried three methods
         subStrs = set()
         for i in range(len(s)-k+1):
             subStrs.add(s[i:i+k])
